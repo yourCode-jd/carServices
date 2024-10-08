@@ -29,38 +29,43 @@
       <div class="container">
         <div class="header_content">
           <div class="header_search">
-            <div class="logo">LOGO</div>
-            <form class="flex search_bar">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                <svg
-                  fill="#efefef"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39M11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7"
-                  />
-                </svg>
-              </button>
-            </form>
-            <div class="header_icon">
+            <div class="mobile_nav">
+              <div class="toggle_icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <ul class="navbar-nav">
+                <div class="logo">NGU</div>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us </a>
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="header_icon">
               <div class="user">
                 <svg
-                  width="30"
-                  height="30"
+                  width="18"
+                  height="18"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill="#333"
+                    fill="#ffffff"
                     d="M9.993 10.573a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9M10 0a6 6 0 0 1 3.04 11.174c3.688 1.11 6.458 4.218 6.955 8.078.047.367-.226.7-.61.745-.383.045-.733-.215-.78-.582-.54-4.19-4.169-7.345-8.57-7.345-4.425 0-8.101 3.161-8.64 7.345-.047.367-.397.627-.78.582-.384-.045-.657-.378-.61-.745.496-3.844 3.281-6.948 6.975-8.068A6 6 0 0 1 10 0"
                   />
                 </svg>
@@ -68,10 +73,12 @@
               </div>
               <div class="wishlist">
                 <svg
-                  width="30"
-                  height="30"
+                  width="18"
+                  height="18"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
+                  fill="#ffffff"
+                  ;
                 >
                   <path
                     d="M287.984 114.16c31.376 0 88.094 15.008 180.094 105.616l45.616 44.912 44.928-45.632c63.872-64.896 131.84-105.2 177.376-105.2 61.408 0 109.809 21.008 157.009 68.096 44.464 44.368 68.992 103.36 68.992 166.112.032 62.784-24.448 121.824-69.408 166.672-3.664 3.712-196.992 212.304-358.96 387.104-7.632 7.248-16.352 8.32-20.991 8.32-4.576 0-13.2-1.024-20.8-8.096-39.472-43.905-325.552-362-358.815-395.232C88.497 462.416 64 403.376 64 340.608c.015-62.752 24.511-121.728 69.04-166.144 43.295-43.264 93.984-60.304 154.944-60.304m-.002-64c-76.528 0-144 22.895-200.176 79.008-117.072 116.768-117.072 306.128 0 422.96 33.424 33.44 357.855 394.337 357.855 394.337 18.48 18.496 42.753 27.68 66.96 27.68 24.225 0 48.4-9.184 66.912-27.68 0 0 354.88-383.024 358.656-386.85 117.04-116.88 117.04-306.24 0-423.007-58.112-58-123.024-86.784-202.208-86.784-75.648 0-160 60.32-223.008 124.32C447.981 110.159 366.237 50.16 287.981 50.16z"
@@ -81,24 +88,24 @@
               </div>
               <div class="cart">
                 <svg
-                  width="40"
-                  height="40"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
                     d="M2.832 4.387h.511c.86 0 1.618.56 1.87 1.381l3.065 9.958a1.96 1.96 0 0 0 1.87 1.381h6.963c.826 0 1.563-.518 1.842-1.295l2.04-5.68c.686-1.913-.731-3.928-2.763-3.928h-7.57"
-                    stroke="#333"
+                    stroke="#ffffff"
                     stroke-width="1.7"
                     stroke-linecap="round"
                   />
-                  <circle cx="10.171" cy="20.532" r="1.468" fill="#333" />
-                  <circle cx="17.02" cy="20.532" r="1.468" fill="#333" />
+                  <circle cx="10.171" cy="20.532" r="1.468" fill="#ffffff" />
+                  <circle cx="17.02" cy="20.532" r="1.468" fill="#ffffff" />
                 </svg>
                 <span>wishlist</span>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="header_nav">
             <div class="dropdown">
@@ -129,66 +136,39 @@
                 </svg>
               </button>
               <div id="myDropdown" class="dropdown-content">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="#home">Interior</a>
+                <a href="#about">Exterior</a>
+                <a href="#contact">lighting</a>
               </div>
             </div>
-            <nav class="navbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us </a>
-                </li>
-              </ul>
-            </nav>
-            <div class="mobile_nav">
-              <div class="toggle_icon">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <ul class="navbar-nav">
-                <div class="logo">NGU</div>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us </a>
-                </li>
-              </ul>
-            </div>
+            <form class="flex search_bar">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                <svg
+                  fill="#efefef"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39M11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7"
+                  />
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
     </header>
     <!-- Hero section -->
     <div class="hero_banner">
-      <img src="Images/01.jpeg" alt="" />
+      <img src="images/06.jpeg" alt="" />
       <div class="hero_content">
         <h1 class="hero_title">FIND THE RIGHT</h1>
         <button class="hero_btn customBtn">click here</button>

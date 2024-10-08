@@ -3,6 +3,9 @@ $(document).ready(function () {
   $(".toggle_icon").click(function () {
     $("body").toggleClass("nav_open");
   });
+  $(".desktop_header").click(function () {
+    $("header").toggleClass("headerShow");
+  });
   //
 
   $(".products_listSlide").slick({
