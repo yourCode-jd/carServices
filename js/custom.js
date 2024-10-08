@@ -3,9 +3,6 @@ $(document).ready(function () {
   $(".toggle_icon").click(function () {
     $("body").toggleClass("nav_open");
   });
-  $(".desktop_header").click(function () {
-    $("header").toggleClass("headerShow");
-  });
   //
 
   $(".products_listSlide").slick({
@@ -56,7 +53,7 @@ $(document).ready(function () {
       },
     ],
   });
-  $(".TrendingProduct_list").slick({
+  $(".trendingProduct_list").slick({
     slidesToShow: 6,
     slidesToScroll: 1,
     dots: false,
@@ -88,19 +85,19 @@ $(document).ready(function () {
 });
 
 // header Dropdown
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+// function myFunction() {
+//   document.getElementById("myDropdown").classList.toggle("show");
+// }
 
-window.onclick = function (event) {
-  if (!event.target(".dropbtn")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
-};
+// window.onclick = function (event) {
+//   if (!event.target(".dropbtn")) {
+//     var dropdowns = document.getElementsByClassName("dropdown-content");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains("show")) {
+//         openDropdown.classList.remove("show");
+//       }
+//     }
+//   }
+// };
