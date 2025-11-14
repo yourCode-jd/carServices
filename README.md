@@ -7,7 +7,7 @@ A sleek and responsive landing page for a premium car service center, built to s
 
 ## 🚀 Github Demo
 
-[View Here](https://yourcode-jd.github.io/AI/)
+[View Here](https://yourcode-jd.github.io/carServices/)
 
 ---
 
